@@ -1,0 +1,56 @@
+# OS or IDE folders/files to ignore
+*~
+._*
+*.lock
+*.DS_Store
+*.swp
+*.out
+.cache
+.project
+.settings
+nbproject
+thumb.db
+Thumbs.db
+
+# Ignore everything in the root except the "wp-content" directory.
+/*
+!favicon.ico
+!.gitignore
+!wp-content/
+!static/
+!html/
+node-modules
+
+# Ignore everything in the "wp-content" directory, except "mu-plugins", "plugins" and "themes"
+wp-content/*
+!wp-content/mu-plugins/
+!wp-content/plugins/
+!wp-content/themes/
+
+# Ignore everything in the "plugins" directory, except the plugins you specify
+#wp-content/plugins/*
+
+# Ignore all the twenty-x themes
+wp-content/themes/twentyten/
+wp-content/themes/twentyeleven/
+wp-content/themes/twentytwelve/
+wp-content/themes/twentythirteen/
+wp-content/themes/twentyfourteen/
+wp-content/themes/twentyfifteen/
+wp-content/themes/twentysixteen/
+wp-content/themes/twentyseventeen/
+wp-content/themes/twentyeighteen/
+wp-content/themes/twentynineteen/
+wp-content/themes/twentytwenty/
+
+# Ignore static modules
+static/node_modules/
+static/.sass-cache
+wp-content/themes/node_modules/
+wp-content/themes/*/node_modules/
+wp-content/themes/*/.sass-cache/
+wp-content/themes/*/.DS_Store
+
+# Ignore files inside theme folder (clatter)
+wp-content/themes/clatter/.sass-cache/
+wp-content/themes/clatter/style.css.map
